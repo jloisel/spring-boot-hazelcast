@@ -1,6 +1,6 @@
 Spring Boot + Hazelcast Integration
 
-## Introduction
+## Introduction
 
 Spring Boot Web application with configurable clustering:
 
