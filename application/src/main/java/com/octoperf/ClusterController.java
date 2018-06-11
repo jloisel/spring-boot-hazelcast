@@ -27,6 +27,10 @@ class ClusterController {
   @NonNull
   ClusteringService clustering;
 
+  @GetMapping("/is-leader") boolean isLeader() {
+    return clustering.isLeader();
+  }
+
   @GetMapping("/{key}")
   Optional<String> get(@PathVariable("key") final String key) {
     final ClusteredMap<String, String> map = clustering.getMap(MAP_ID);
