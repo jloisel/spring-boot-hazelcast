@@ -1,4 +1,4 @@
 clustering:
   driver: hazelcast
   hazelcast:
-    quorum: 1
+    quorum: 2
