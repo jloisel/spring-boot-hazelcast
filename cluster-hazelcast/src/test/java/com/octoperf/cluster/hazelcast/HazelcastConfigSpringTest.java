@@ -1,7 +1,6 @@
 package com.octoperf.cluster.hazelcast;
 
 import com.hazelcast.core.HazelcastInstance;
-import com.octoperf.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

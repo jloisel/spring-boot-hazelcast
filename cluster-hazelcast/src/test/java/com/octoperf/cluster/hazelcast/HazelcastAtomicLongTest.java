@@ -1,6 +1,5 @@
 package com.octoperf.cluster.hazelcast;
 
-import com.octoperf.Application;
 import com.octoperf.cluster.api.AbstractClusteredAtomicLongTest;
 import com.octoperf.cluster.api.ClusteredAtomicLong;
 import com.octoperf.cluster.api.ClusteringService;

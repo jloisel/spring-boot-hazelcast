@@ -1,7 +1,6 @@
 package com.octoperf.cluster.hazelcast;
 
 import com.hazelcast.core.Message;
-import com.octoperf.Application;
 import com.octoperf.cluster.api.AbstractClusteredTopicTest;
 import com.octoperf.cluster.api.ClusteredTopic;
 import com.octoperf.cluster.api.ClusteringService;

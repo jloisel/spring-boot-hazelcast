@@ -1,6 +1,5 @@
 package com.octoperf.cluster.hazelcast;
 
-import com.octoperf.Application;
 import com.octoperf.cluster.api.AbstractClusteredMapTest;
 import com.octoperf.cluster.api.ClusteredMap;
 import com.octoperf.cluster.api.ClusteringService;

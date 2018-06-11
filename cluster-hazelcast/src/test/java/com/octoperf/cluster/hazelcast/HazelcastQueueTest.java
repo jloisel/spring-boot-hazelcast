@@ -1,6 +1,5 @@
 package com.octoperf.cluster.hazelcast;
 
-import com.octoperf.Application;
 import com.octoperf.cluster.api.AbstractClusteredQueueTest;
 import com.octoperf.cluster.api.ClusteredQueue;
 import com.octoperf.cluster.api.ClusteringService;
