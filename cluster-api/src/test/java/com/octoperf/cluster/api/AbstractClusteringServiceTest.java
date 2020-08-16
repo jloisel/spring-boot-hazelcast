@@ -69,6 +69,6 @@ public abstract class AbstractClusteringServiceTest {
     final ClusteringService service = newService();
     new NullPointerTester().testConstructors(service.getClass(), PACKAGE);
   }
-  
+
   protected abstract ClusteringService newService();
 }

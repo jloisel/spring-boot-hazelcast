@@ -12,11 +12,11 @@
   <artifactId>application</artifactId>
 
   <dependencies>
-    <dependency>
-      <groupId>com.octoperf</groupId>
-      <artifactId>cluster-jvm</artifactId>
-      <version>${project.version}</version>
-    </dependency>
+<!--    <dependency>-->
+<!--      <groupId>com.octoperf</groupId>-->
+<!--      <artifactId>cluster-jvm</artifactId>-->
+<!--      <version>${project.version}</version>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>com.octoperf</groupId>
       <artifactId>cluster-hazelcast</artifactId>

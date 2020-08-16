@@ -15,7 +15,7 @@
 
   <modules>
     <module>cluster-api</module>
-    <module>cluster-jvm</module>
+<!--    <module>cluster-jvm</module>-->
     <module>cluster-hazelcast</module>
     <module>application</module>
   </modules>
@@ -128,7 +128,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.7.0</version>
+        <version>3.8.1</version>
         <configuration>
           <!-- mandatory to compile project with maven 3.3.9, might be removed with latest version -->
           <useIncrementalCompilation>false</useIncrementalCompilation>

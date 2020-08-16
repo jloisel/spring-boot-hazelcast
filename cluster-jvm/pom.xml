@@ -28,7 +28,7 @@
       <artifactId>cluster-api</artifactId>
       <version>${project.version}</version>
       <scope>test</scope>
-      <type>test-jar</type>
+<!--      <type>test-jar</type>-->
     </dependency>
   </dependencies>
 </project>
