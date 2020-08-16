@@ -1,2 +1,5 @@
 server:
   port: 0
+
+#clustering:
+#  driver: hazelcast
