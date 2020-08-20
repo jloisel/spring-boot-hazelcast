@@ -7,6 +7,6 @@ public class JVMLockTest extends AbstractClusteredLockTest {
 
   @Override
   protected ClusteredLock newService() {
-    return new JVMLock(() -> {});
+    return new JVMLock();
   }
 }

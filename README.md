@@ -16,7 +16,7 @@ clustering:
 ```
 ## Pre-Requisites
 
-This project uses [Lombok](https://projectlombok.org/) which requires **Annotations Processors** to be enabled in Eclipse / Intellij when importing from sources. Requires **Java 8** or later.
+This project uses [Lombok](https://projectlombok.org/) which requires **Annotations Processors** to be enabled in Eclipse / Intellij when importing from sources. Requires **Java 11** or later.
 
 ## Demo Application
 
@@ -26,3 +26,17 @@ Run with intellij:
 - **Use classpath of module**: `application`,
 - **Working Directory**: `$MODULE_DIR$`,
 - **VM Options**: `-Dspring.profiles.active=hazelcast` to run with hazelcast clustering. Nothing otherwise.
+
+OR
+
+Compile and build with shell:
+
+- ./mvnw.sh clean package
+
+Run with shell:
+
+- java -Dspring.profiles.active=hazelcast -jar application/target/application-1.0-SNAPSHOT.jar
+
+Tutorial: 
+
+- https://octoperf.com/blog/2018/06/12/spring-boot-hazelcast-tutorial/
